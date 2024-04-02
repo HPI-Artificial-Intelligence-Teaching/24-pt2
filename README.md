@@ -1,2 +1,3 @@
-# 24-pt2
-All public sources for the SS2024 HPI course on Algorithms and Data Structures
+# Programmiertechnik II (SS 2024)
+
+Hier finden sich alle Quelltexte, Folien und weiterführendes Material zur Vorlesung Programmiertechnik II (Algorithmen und Datenstrukturen) am Hasso Plattner Institut.
