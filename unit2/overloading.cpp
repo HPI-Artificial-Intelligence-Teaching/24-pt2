@@ -9,18 +9,18 @@ struct Rational {
     int q;
 
     // Operator overloading for a typecast operator
-    operator double() const { return ((double)p / (double)q); }
+    operator double() const { cout << " (casting) "; return ((double)p / (double)q); }
 };
 
 // overloading of the addition operator
-Rational operator+(Rational const& a, Rational const& b) {
+Rational operator+(const Rational& a, const Rational& b) {
     Rational c = {a.p * b.q + b.p * a.q, a.q * b.q};
     return (c);
 }
 
 // overloading of the multiplication operator
-Rational operator*(Rational const& a, Rational const& b) {
-    Rational c = {a.p * b.q, a.q * b.q};
+Rational operator*(const Rational& a, const Rational& b) {
+    Rational c = {a.p * b.p, a.q * b.q};
     return (c);
 }
 
